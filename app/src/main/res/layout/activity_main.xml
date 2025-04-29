@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEEEEE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DDDDDD">
+
+        <LinearLayout
+            android:id="@+id/button_container1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_button1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/a"
+                android:contentDescription="@string/button1_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_container2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_button2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/b"
+                android:contentDescription="@string/button2_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_container3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_button3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/c"
+                android:contentDescription="@string/button3_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_container4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_button4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/d"
+                android:contentDescription="@string/button4_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_container5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_button5"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/e"
+                android:contentDescription="@string/button5_text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

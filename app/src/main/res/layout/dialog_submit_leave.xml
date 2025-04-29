@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/submitLeaveTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Leave"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="12dp"
+        android:gravity="center" />
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/submitLeaveDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Double-check your leave details to ensure everything is correct. Do you want to proceed?"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:textStyle="italic"
+        android:layout_marginTop="24dp" />
+
+    <!-- Yes Button -->
+    <Button
+        android:id="@+id/yesSubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes, Submit"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#795FFC"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="30dp" />
+
+    <!-- No Button -->
+    <Button
+        android:id="@+id/noButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textColor="#000000"
+        android:backgroundTint="#E0E0E0"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
